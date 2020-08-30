@@ -1,0 +1,19 @@
+.myLogo {
+    font-family: 'Gloria Hallelujah', cursive, Helvetica, Arial, sans-serif;
+    font-size: 1.6rem;
+    color: #fdcb6e !important;
+}
+
+.myNavLink {
+    color: black !important;
+    text-decoration: none !important;
+}
+  
+.myNavLink:hover {
+    color: #fdcb6e !important;
+}
+
+.myLogoutButton {
+ padding: 0px !important;
+ border: 0px !important;
+}

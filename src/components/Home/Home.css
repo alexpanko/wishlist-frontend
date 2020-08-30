@@ -1,0 +1,36 @@
+.myHero {
+    display: flex;
+    height: 92vh;
+    align-items: flex-end;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.myOrange {
+    color: #fdcb6e;
+}
+
+.myWidth-300 {
+    width: 300px;
+}
+
+.myConfettiBackground {
+    background-image: url('/images/home_confetti.jpg');
+    width: 100vw;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 400px) {
+    .myHero {
+      height: 80vh;
+      background-attachment: initial;
+    }
+    .myHeroTitle {
+      font-size: 3.3rem;
+    }
+}
