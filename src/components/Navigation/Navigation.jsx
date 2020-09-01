@@ -26,7 +26,7 @@ export default class Navigation extends Component {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav>
                             <Nav.Link className="myNavLink" href="/">Home</Nav.Link>
-                            {!this.props.user && <Nav.Link className="myNavLink" href="/signup">Signup</Nav.Link>}
+                            {!this.props.user && <Nav.Link className="myNavLink" href="/signup">Sign Up</Nav.Link>}
                             {!this.props.user && <Nav.Link className="myNavLink" href="/login">Login</Nav.Link>}
                             {this.props.user && <Nav.Link className="myNavLink" href="/create-list">Create list</Nav.Link>}
                             {this.props.user && <Nav.Link className="myNavLink" href="/my-lists">My lists</Nav.Link>}

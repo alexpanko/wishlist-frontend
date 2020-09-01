@@ -6,6 +6,7 @@ import Home from './components/Home/Home'
 import Footer from './components/Footer/Footer'
 import AuthService from './services/auth-service'
 import Signup from './components/Signup/Signup'
+import Login from './components/Login/Login'
 
 export default class App extends Component {
 
@@ -48,6 +49,7 @@ export default class App extends Component {
         <Switch>
           <Route exact path='/' component={Home} />
           <Route exact path='/signup' render={() => <Signup setUser={this.setUser} />} />
+          <Route exact path='/login' render={() => <Login setUser={this.setUser} />} />
         </Switch>
         <Footer />
       </div>
